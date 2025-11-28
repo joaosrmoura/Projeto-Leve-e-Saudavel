@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete Git</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="menu.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./JS/menu.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+            <img src="./imagem/img-leve-contorno-branco.png" alt="Imagem do Logo Leve e Saudável">
+            <ul id="nav_list">
+                <li class="nav_item">
+                    <a href="" class="nav_link">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="" class="nav_link">Cardápio</a>
+                </li>
+                <button class="btn_default">
+                    Peça Aqui
+                </button>
+            </ul>
+        </nav> 
+        <button class="mobile-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="mobile-menu">
+            <ul class="mobile-nav-list">
+                <li class="nav-item"><a href="">Home</a></li>
+                <li class="nav-item"><a href="">Cardápio</a></li>
+            </ul>
+        </div>
+    </header> 
+    
+    <main class="content">
+        <section class="home">
+            <div class="cta">
+                <h1 class="title">
+                <img src="./imagem/contorno-preto.png" alt="">
+                </h1>
+                <p class="descricao">
+                    Empresa de alimentação saudável e prática! <br>Em poucos minutos você tem sua refeição pronta na palma da mão! 
+                </p>
+                <div class="cta-buttons">
+                    <a href="" class="btn_default">Ver Cardápio</a>
+                    <a href="" class="phone-button">
+                        <button class="btn_default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (67) 99628-8916
+                    </a>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="./imagem/imagem-marmitas.jpeg" alt="Imagem Principal da Loja">
+            </div>  
+        </section>
+    </main>
+    <section class="cardapio">
+        <h2 class="section-title">Cardápio</h2>
+        <h3 class="section-subtitle">Nossos Pratos Especias</h3>
+        <div class="area-cards">
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="./imagem/imagem (1).jpeg" alt="Imagem da Pizza Proteica" class="card-imagem">
+                <h3 class="card-title">Pizza Proteica Caprese</h3>
+                <span class="card-descricao">
+                    Essa saborosa pizza é feita com filé de frango, molho de tomate, queijo mussarela e parmesão, ricota, nata fresca, ovo, azeitona, milho verde, sal rosa, coloral, azeite de oliva e alho.
+                </span>
+                <div class="card-price">
+                    <h4>R$ 28,50</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="./imagem/imagem (2).jpeg" alt="Imagem do Lanche" class="card-imagem">
+                <h3 class="card-title">Hambúrguer de Aveia e Chia</h3>
+                <span class="card-descricao">
+                    O nosso saboroso hambúrguer é feito com patinho, cebola, aveia em flocos, cenoura, limão taiti, semente de chia, azeite de oliva, alho, cebolinha, tomilho e sal rosa.
+                </span>
+                <div class="card-price">
+                    <h4>R$ 19,50</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="./imagem/imagem (3).jpeg" alt="Imagem do Lanche" class="card-imagem">
+                <h3 class="card-title">Pizza Frango Especial</h3>
+                <span class="card-descricao">
+                    Essa saborosa pizza é feita com filé de frango, molho de tomate, queijo mussarela, ricota, nata fresca, ovo, azeitona, milho verde, sal rosa, coloral, azeite de oliva e alho.
+                </span>
+                <div class="card-price">
+                    <h4>R$ 28,50</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="./imagem/imagem (4).jpeg" alt="Imagem do Lanche" class="card-imagem">
+                <h3 class="card-title">Porção de Carne Moída Refogada</h3>
+                <span class="card-descricao">
+                    A nossa porção de carne moída é feita de carne bovina (patinho), cebola, tomate, cenoura, cebolinha, manteiga sem sal, alho, limão, sal rosa e hortelã.
+                </span>
+                <div class="card-price">
+                    <h4>R$ 21,60</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="./imagem/imagem (5).jpeg" alt="Imagem da Torta de Atum com Gergelim" class="card-imagem">
+                <h3 class="card-title">Torta de Atum com Gergelim</h3>
+                <span class="card-descricao">
+                    A nossa torta de atum é feita com farinha de aveia, ovo, azeite de oliva, fermento em pó, leite, sal rosa, atum, cebola, tomate e gergilim branco.
+                </span>
+                <div class="card-price">
+                    <h4>R$ 13,90</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="./imagem/imagem (6).jpeg" alt="Imagem da Sopa de Legumes Low Carb" class="card-imagem">
+                <h3 class="card-title">Sopa de Legumes Low Carb</h3>
+                <span class="card-descricao">
+                    A nossa sopa é feita com peito de frango, abobrinha, cenoura, tomate, chuchu, couve-flor, ervilha, cebola, repolho, couve, azeite de oliva, alho, salsão.
+                </span>
+                <div class="card-price">
+                    <h4>R$ 22,90</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="./imagem/imagem (7).jpeg" alt="Imagem do Lanche" class="card-imagem">
+                <h3 class="card-title">Bolo de Cenoura</h3>
+                <span class="card-descricao">
+                    O nosso bolo de cenoura é feito com cenoura, farinha de aveia, ovo, óleo de coco, açucar demerara, fermento em pó, pó químico e canela em pó.
+                </span>
+                <div class="card-price">
+                    <h4>R$ 9,90</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="./imagem/imagem (8).jpeg" alt="Imagem do Lanche" class="card-imagem">
+                <h3 class="card-title">Crepioca de Ganache com Morango</h3>
+                <span class="card-descricao">
+                    A nossa crepioca é feita com ovo, goma de tapioca, chocolate meio amargo, morangom, creme de leite, cacau em pó.
+                </span>
+                <div class="card-price">
+                    <h4>R$ 16,90</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-itens">
+            <span class="copyright">
+                &copy 2025 João Moura
+            </span>
+            <div class="social-midia-buttons">
+                <a href="https://wa.me/5567992118645"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/_joaosmoura/"target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/joao-moura-085939219/"><i class="fa-brands fa-linkedin"target="_blank"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+
+
+    
+</body>
+</html>

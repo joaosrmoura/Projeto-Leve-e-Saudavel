@@ -1,0 +1,23 @@
+footer{
+    background-color: var(--color-primary-1);
+    margin-top: 50px;
+}
+.footer-itens{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 8% 20px 8%;
+    align-items: center;
+}
+.copyright{
+    color: var(--color-neutra-2);
+    font-weight: 500;
+    font-size: 18px;
+}
+.social-midia-buttons{
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+}
+.social-midia-buttons i{
+    color: white;
+}
